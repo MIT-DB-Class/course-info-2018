@@ -169,7 +169,7 @@ You should have Git installed from the previous section.
 	Writing objects: 100% (59/59), 420.46 KiB | 0 bytes/s, done.
 	Total 59 (delta 2), reused 59 (delta 2)
 	remote: Resolving deltas: 100% (2/2), done.
-	To git@github.com:MIT-DB-Class/homework-solns-2017-<athena username>.git
+	To git@github.com:MIT-DB-Class/homework-solns-2018-<athena username>.git
 	 * [new branch]      master -> master
 	Branch master set up to track remote branch master from origin.
    ```
