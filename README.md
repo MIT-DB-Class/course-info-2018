@@ -191,7 +191,7 @@ commands to actually upload your final lab solution.
 
 ## Getting Newly Released Labs <a name="getting-newly-released-lab"></a>
 
-(You don't need to follow these instructions until Lab 2.)
+(You don't need to follow these instructions until Lab 1.)
 
 Pulling in labs that are released or previous lab solutions should be easy as long as you set up your repository based on the instructions in the last section.
 
