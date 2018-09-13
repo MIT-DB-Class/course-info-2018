@@ -48,9 +48,10 @@ Now that you have a basic understanding of Git, it's time to get started with Gi
 
 1. If you don't already have an account, sign up for one here: [https://github.com/join][join].
 
-   You should now have a repository set up just for your lab solutions.  This
+   If you filled the form ([https://goo.gl/forms/FZPsfP5DQTTzffdC3][this form])
+   then you should now have a repository set up just for your lab solutions.  This
    should be called `homework-solns-2018-<athena username>` and located in the
-   MIT-DB-Class organization.
+   MIT-DB-Class organization. 
 
    This is what you'll set up in the next section to allow you to write your
    lab answers and submit them.
