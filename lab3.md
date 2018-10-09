@@ -1,7 +1,7 @@
 # 6.830 Lab 3: Query Optimization
 
 **Assigned: Friday, October 12, 2018**<br>
-**Due: Monday, October 26, 2018**
+**Due: Friday, October 26, 2018**
 
 
 In this lab, you will implement a query optimizer on top of SimpleDB.
