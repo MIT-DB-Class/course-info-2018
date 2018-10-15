@@ -48,7 +48,7 @@ Now that you have a basic understanding of Git, it's time to get started with Gi
 
 1. If you don't already have an account, sign up for one here: [https://github.com/join][join].
 
-   If you filled the form ([https://goo.gl/forms/FZPsfP5DQTTzffdC3][this form])
+   If you filled the form ([this form](https://goo.gl/forms/FZPsfP5DQTTzffdC3))
    then you should now have a repository set up just for your lab solutions.  This
    should be called `homework-solns-2018-<athena username>` and located in the
    MIT-DB-Class organization. 
@@ -262,7 +262,7 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
 To git@github.com:MIT-DB-Class/homework-solns-2018-<athena username>.git
    069856c..7a26701  master -> master
  * [new tag]         lab1submit -> lab1submit
-```
+ ```
 
 
 If the above command worked for you, you can skip to item 6 below.  If not, submit your solutions for lab 1 as follows (*replace lab 1 with the correct lab ID for later labs*):
