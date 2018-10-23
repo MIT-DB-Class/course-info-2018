@@ -76,7 +76,7 @@ In this lab, you will implement code to perform both of these
 functions.
 
 The optimizer will be invoked from <tt>simpledb/Parser.java</tt>.  You may wish
-to review the <a href="https://github.com/MIT-DB-Class/course-info/blob/master/lab2.md#parser">lab 2 parser exercise</a>
+to review the <a href="https://github.com/MIT-DB-Class/course-info-2018/blob/master/lab2.md#parser">lab 2 parser exercise</a>
 before starting this lab.  Briefly, if you have a catalog file
 <tt>catalog.txt</tt> describing your tables, you can run the parser by
 typing:
