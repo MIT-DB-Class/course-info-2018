@@ -44,7 +44,7 @@ $ git pull upstream master
 
 Before starting,
 you should make sure you understand what a transaction is and how
-strict two-phase locking (which you will use to ensure isolation and
+rigorous two-phase locking (which you will use to ensure isolation and
 atomicity of your transactions) works.
 
 In the remainder of this section, we briefly overview these concepts 
@@ -64,12 +64,12 @@ To help you understand
  how transaction management works in SimpleDB, we briefly review how
 it  ensures that the ACID properties are satisfied:
 
-* **Atomicity**:  Strict two-phase locking and careful buffer management
+* **Atomicity**:  Rigorous two-phase locking and careful buffer management
   ensure atomicity.</li>
 * **Consistency**:  The database is transaction consistent by virtue of
   atomicity.  Other consistency issues (e.g., key constraints) are
   not addressed in SimpleDB.</li>
-* **Isolation**: Strict two-phase locking provides isolation.</li>
+* **Isolation**: Rigorous two-phase locking provides isolation.</li>
 * **Durability**: A FORCE buffer management policy ensures
   durability (see Section 2.3 below).</li>
 
@@ -169,7 +169,7 @@ the unit tests in LockingTest.
 
 ###  2.5. Lock Lifetime 
 
-You will need to implement strict two-phase locking.  This means that
+You will need to implement rigorous two-phase locking.  This means that
 transactions should acquire the appropriate type of lock on any object
 before accessing that object and shouldn't release any locks until after
 the transaction commits.  
@@ -210,7 +210,7 @@ implemented this code in lab 2, but we did not test for this case.)
 
 After you have acquired locks, you will need to think about when to
 release them as well. It is clear that you should release all locks
-associated with a transaction after it has committed or aborted to ensure strict 2PL.
+associated with a transaction after it has committed or aborted to ensure rigorous 2PL.
 However, it is
 possible for there to be other scenarios in which releasing a lock before
 a transaction ends might be useful. For instance, you may release a shared lock
