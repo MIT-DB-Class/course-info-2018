@@ -402,7 +402,7 @@ Although you will not use them directly in Lab 1, we ask you to implement <tt>ge
 
 You will also need to implement an Iterator over the tuples in the page, which may involve an auxiliary class or data structure.  
 
-At this point, your code should pass the unit tests in HeapPageIdTest, RecordIDTest, and HeapPageReadTest.
+At this point, your code should pass the unit tests in HeapPageIdTest, RecordIdTest, and HeapPageReadTest.
 
 
 <p> 
